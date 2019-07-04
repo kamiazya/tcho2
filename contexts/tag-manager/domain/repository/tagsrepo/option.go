@@ -1,8 +1,8 @@
 package tagsrepo
 
 import (
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository"
 )
 
 // Option is a search condition of Tag for the repository.

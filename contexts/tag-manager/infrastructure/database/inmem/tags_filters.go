@@ -1,8 +1,8 @@
 package inmem
 
 import (
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
 )
 
 func newFilters(opts tagsrepo.Options) (fs filters, err error) {

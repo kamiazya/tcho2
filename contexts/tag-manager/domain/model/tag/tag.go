@@ -1,6 +1,6 @@
 package tag
 
-import "bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
+import "github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
 
 // Tag is a model representing information that can be given to multiple entities.
 //

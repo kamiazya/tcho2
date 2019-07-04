@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
 	"github.com/rs/xid"
 )
 

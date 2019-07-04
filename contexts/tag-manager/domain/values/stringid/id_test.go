@@ -3,7 +3,7 @@ package stringid
 import (
 	"testing"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
 )
 
 func TestID_String(t *testing.T) {

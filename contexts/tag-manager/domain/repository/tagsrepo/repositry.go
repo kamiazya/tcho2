@@ -3,8 +3,8 @@ package tagsrepo
 import (
 	"context"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
 )
 
 // Repository is the interface that governs the persistence of Tag.

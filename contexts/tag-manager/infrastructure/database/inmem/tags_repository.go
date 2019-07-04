@@ -3,10 +3,10 @@ package inmem
 import (
 	"context"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository/tagsrepo"
 )
 
 func NewTagsRepository(opts ...TagsRepositoryOption) (repo tagsrepo.Repository, err error) {

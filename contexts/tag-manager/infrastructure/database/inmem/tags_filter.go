@@ -1,8 +1,8 @@
 package inmem
 
 import (
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
 )
 
 type filter func(t tag.Tag) bool

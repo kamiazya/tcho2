@@ -1,6 +1,6 @@
 package stringid
 
-import "bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
+import "github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
 
 type stringID string
 

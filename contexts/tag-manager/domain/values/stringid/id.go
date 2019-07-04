@@ -1,7 +1,7 @@
 package stringid
 
 import (
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
 )
 
 // NewID specifies a new ID.

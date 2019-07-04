@@ -1,6 +1,6 @@
 package inmem
 
-import "bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+import "github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
 
 type TagsRepositoryOption func(*TagsRepositoryConfig) error
 

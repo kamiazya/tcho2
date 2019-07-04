@@ -3,9 +3,9 @@ package tagsrepo
 import (
 	"testing"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/repository"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/repository"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
 )
 
 func TestByID(t *testing.T) {

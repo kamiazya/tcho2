@@ -3,7 +3,7 @@ package tag
 import (
 	"testing"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/values/stringid"
 )
 
 func TestIsSame(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/k0kubun/pp"
 
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
-	"bitbucket.org/kamiazya/tcho2/contexts/tag-manager/infrastructure/database/inmem"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/domain/model/tag"
+	"github.com/kamiazya/tcho2/contexts/tag-manager/infrastructure/database/inmem"
 )
 
 func main() {
