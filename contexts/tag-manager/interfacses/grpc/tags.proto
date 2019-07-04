@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package tags;
+
+message Tag {
+  string id = 1;
+  string name = 2;
+}
+
+message GetRequest {
+  string id = 1;
+}
+
+message GetResponse {
+  repeated Tag tags = 1;
+}
+
+service TagsService {
+  rpc Get(GetRequest) returns (GetResponse) {}
+}
